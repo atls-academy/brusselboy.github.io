@@ -1,0 +1,137 @@
+.hero {
+    background-color: var(--hero-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-wrapper {
+   margin-left: 12%;
+}
+
+.hero-logo {
+    margin-top: 40px;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.hero-content {
+    margin-top: 492px;
+    max-width: 1130px;
+}
+
+.hero-title h3 {
+    color: var(--text-color-inverse);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.hero-description p {
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76.8px;
+    margin-top: 40px;
+}
+
+.hero-information {
+    margin: 40px 0 40px 0;
+    justify-content: flex-start;
+}
+
+.hero-information a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-right: 60px;
+}
+
+.hero-information a:nth-child(3) {
+    margin: 0;
+}
+
+.hero hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.25);
+    margin-top: 40px;
+    width: 90%;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+    .hero-title h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .hero-description p {
+        font-size: 56px;
+        line-height: 67.2px;
+    }
+
+    .hero-wrapper {
+        margin-left: 5%;
+    }
+
+    .hero-content {
+        margin-top: 537px;
+        max-width: 944px;
+        min-height: 268px;
+    }
+
+    .hero-information a {
+        font-size: 16px;
+    }
+
+    .hero hr {
+        width: 95%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 481px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: flex;
+    }
+
+    .hero-title h3 {
+        font-size: 14px;
+    }
+
+    .hero-description p {
+        font-size: 36px;
+        line-height: 120%;
+    }
+
+    .hero-content {
+        margin-top: 237px;
+        max-width: 335px;
+    }
+
+    .hero-information a {
+        font-size: 14px;
+        line-height: 120%;
+        margin-right: 23.5px;
+    }
+
+    .hero hr {
+        width: 95%;
+    }
+
+    .hero-logo {
+        margin-top: 20px;
+    }
+}

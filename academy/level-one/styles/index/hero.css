@@ -5,14 +5,18 @@
 }
 
 .hero-wrapper {
-   margin-left: 12%;
+    margin-left: 12%;
 }
 
 .hero-logo {
     margin-top: 40px;
 }
 
-.logo-mobile {
+.logo {
+    cursor: pointer;
+}
+
+.mobile-logo {
     display: none;
 }
 
@@ -21,19 +25,23 @@
     max-width: 1130px;
 }
 
-.hero-title h3 {
+.hero-title {
     color: var(--text-color-inverse);
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
+    text-transform: uppercase;
 }
 
-.hero-description p {
+.hero-description-container {
+    margin-top: 40px;
+}
+
+.hero-description {
     color: var(--text-color-white);
     font-weight: 400;
     font-size: 64px;
-    line-height: 76.8px;
-    margin-top: 40px;
+    line-height: 77px;
 }
 
 .hero-information {
@@ -47,8 +55,8 @@
     color: var(--text-color-white);
     font-weight: 400;
     font-size: 18px;
-    line-height: 21.6px;
-    margin-right: 60px;
+    line-height: 22px;
+    margin-right: 5%;
 }
 
 .hero-information a:nth-child(3) {
@@ -67,14 +75,14 @@
 /* Tablet */
 
 @media screen and (max-width: 1024px) {
-    .hero-title h3 {
+    .hero-title {
         font-size: 16px;
         line-height: 16px;
     }
 
-    .hero-description p {
+    .hero-description {
         font-size: 56px;
-        line-height: 67.2px;
+        line-height: 67px;
     }
 
     .hero-wrapper {
@@ -99,19 +107,19 @@
 /* Mobile */
 
 @media screen and (max-width: 481px) {
-    .logo {
+    .main-logo {
         display: none;
     }
 
-    .logo-mobile {
+    .mobile-logo {
         display: flex;
     }
 
-    .hero-title h3 {
+    .hero-title {
         font-size: 14px;
     }
 
-    .hero-description p {
+    .hero-description {
         font-size: 36px;
         line-height: 120%;
     }
@@ -124,7 +132,6 @@
     .hero-information a {
         font-size: 14px;
         line-height: 120%;
-        margin-right: 23.5px;
     }
 
     .hero hr {

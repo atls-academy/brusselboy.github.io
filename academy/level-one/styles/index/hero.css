@@ -5,11 +5,12 @@
 }
 
 .hero-wrapper {
-    margin-left: 12%;
+    margin-left: 200px;
 }
 
 .hero-logo {
     margin-top: 40px;
+    max-width: 479px;
 }
 
 .logo {
@@ -86,7 +87,7 @@
     }
 
     .hero-wrapper {
-        margin-left: 5%;
+        margin-left: 40px;
     }
 
     .hero-content {
@@ -107,6 +108,10 @@
 /* Mobile */
 
 @media screen and (max-width: 481px) {
+    .hero-wrapper {
+        margin-left: 20px;
+    }
+
     .main-logo {
         display: none;
     }

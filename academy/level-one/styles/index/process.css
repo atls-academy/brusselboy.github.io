@@ -1,0 +1,141 @@
+.processEducation {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.processEducation-wrapper {
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+.processEducationContent {
+    max-width: 90%;
+}
+
+.processEducationContent-title {
+    color: var(--text-color-black);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 60px;
+}
+
+.processEducationContent-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+}
+
+.processEducationContentItems-item {
+    width: 220px;
+    margin-bottom: 40px;
+}
+
+.processEducationContentItemsItem-title {
+    color: var(--text-color-black);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.processEducationContentItemsItem-text {
+    color: var(--text-color-secondary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.processEducationContentItemsItem-image {
+    background-color: #E5E4EE;
+    width: 220px;
+    height: 180px;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+    .processEducationContent-title {
+        font-size: 40px;
+    }
+
+    .processEducation-wrapper {
+        margin-left: 40px;
+        margin-top: 120px;
+        justify-content: center;
+    }
+
+    .processEducationContentItemsItem-image {
+        width: 206px;
+        height: 168px;
+    }
+
+    .processEducationContentItemsItem-image img {
+        width: 206px;
+    }
+
+    .processEducationContentItemsItem-title {
+        font-size: 26px;
+    }
+
+    .processEducationContentItemsItem-text {
+        font-size: 16px;
+    }
+
+    .processEducationContent {
+        max-width: 95%;
+    }
+
+    .processEducationContentItems-item {
+        margin-bottom: 40px;
+    }
+
+    .processEducationContent-items {
+        margin-bottom: 116px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 481px) {
+    .processEducationContentItemsItem-title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .processEducation-wrapper {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .processEducationContentItemsItem-image {
+        width: 157px;
+        height: 128px;
+    }
+
+    .processEducationContentItemsItem-image img {
+        width: 157px;
+        height: 128px;
+    }
+
+    .processEducationContentItemsItem-title {
+        font-size: 24px;
+    }
+
+    .processEducationContentItemsItem-text {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .processEducationContentItems-item {
+        width: 157px;
+        margin-bottom: 40px;
+    }
+
+    .processEducationContent-items {
+        margin-bottom: 80px;
+    }
+}

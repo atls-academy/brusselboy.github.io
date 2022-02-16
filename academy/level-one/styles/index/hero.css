@@ -1,0 +1,159 @@
+.hero {
+    background-color: var(--hero-background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.heroWrapper {
+    margin-left: 200px;
+}
+
+.heroLogo {
+    margin-top: 40px;
+    max-width: 479px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.heroLogo-mobile {
+    display: none;
+}
+
+.heroContent {
+    margin-top: 492px;
+    max-width: 1130px;
+}
+
+.heroContent-title {
+    color: var(--text-color-inverse);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.heroContentDescription-container {
+    margin-top: 40px;
+}
+
+.heroContent-description {
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.heroInformation {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+}
+
+.heroInformation a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 60px;
+}
+
+.heroInformation a:nth-child(3) {
+    margin: 0;
+}
+
+.hero hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.25);
+    margin-top: 40px;
+    width: 90%;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+    .heroContent-title {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .heroLogo {
+        display: flex;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .heroContent-description {
+        font-size: 56px;
+        line-height: 67px;
+    }
+
+    .heroWrapper {
+        margin-left: 40px;
+    }
+
+    .heroContent {
+        margin-top: 537px;
+        max-width: 944px;
+        min-height: 268px;
+    }
+
+    .heroInformation a {
+        font-size: 16px;
+    }
+
+    .hero hr {
+        width: 95%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 481px) {
+    .heroWrapper {
+        margin-left: 20px;
+    }
+
+    .heroLogo-main {
+        display: none;
+    }
+
+    .heroLogo-mobile {
+        display: flex;
+    }
+
+    .heroContent-title {
+        font-size: 14px;
+    }
+
+    .heroContent-description {
+        font-size: 36px;
+        line-height: 120%;
+    }
+
+    .heroContent {
+        margin-top: 237px;
+        max-width: 335px;
+    }
+
+    .heroInformation a {
+        font-size: 14px;
+        line-height: 120%;
+        margin-right: 23px;
+    }
+
+    .hero hr {
+        width: 95%;
+    }
+
+    .heroLogo {
+        margin-top: 20px;
+    }
+}

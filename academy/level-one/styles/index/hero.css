@@ -4,11 +4,11 @@
     flex-direction: column;
 }
 
-.hero-wrapper {
+.heroWrapper {
     margin-left: 200px;
 }
 
-.hero-logo {
+.heroLogo {
     margin-top: 40px;
     max-width: 479px;
 }
@@ -17,16 +17,16 @@
     cursor: pointer;
 }
 
-.mobile-logo {
+.heroLogo-mobile {
     display: none;
 }
 
-.hero-content {
+.heroContent {
     margin-top: 492px;
     max-width: 1130px;
 }
 
-.hero-title {
+.heroContent-title {
     color: var(--text-color-inverse);
     font-weight: 400;
     font-size: 18px;
@@ -34,23 +34,23 @@
     text-transform: uppercase;
 }
 
-.hero-description-container {
+.heroContentDescription-container {
     margin-top: 40px;
 }
 
-.hero-description {
+.heroContent-description {
     color: var(--text-color-white);
     font-weight: 400;
     font-size: 64px;
     line-height: 77px;
 }
 
-.hero-information {
+.heroInformation {
     margin: 40px 0 40px 0;
     justify-content: flex-start;
 }
 
-.hero-information a {
+.heroInformation a {
     text-decoration: none;
     justify-content: space-between;
     color: var(--text-color-white);
@@ -60,7 +60,7 @@
     margin-right: 5%;
 }
 
-.hero-information a:nth-child(3) {
+.heroInformation a:nth-child(3) {
     margin: 0;
 }
 
@@ -76,35 +76,35 @@
 /* Tablet */
 
 @media screen and (max-width: 1024px) {
-    .hero-title {
+    .heroContent-title {
         font-size: 16px;
         line-height: 16px;
     }
 
-    .hero-logo {
-        float: left;
+    .heroLogo {
+        display: flex;
     }
 
     .logo {
         width: 100%;
     }
 
-    .hero-description {
+    .heroContent-description {
         font-size: 56px;
         line-height: 67px;
     }
 
-    .hero-wrapper {
+    .heroWrapper {
         margin-left: 40px;
     }
 
-    .hero-content {
+    .heroContent {
         margin-top: 537px;
         max-width: 944px;
         min-height: 268px;
     }
 
-    .hero-information a {
+    .heroInformation a {
         font-size: 16px;
     }
 
@@ -116,33 +116,33 @@
 /* Mobile */
 
 @media screen and (max-width: 481px) {
-    .hero-wrapper {
+    .heroWrapper {
         margin-left: 20px;
     }
 
-    .main-logo {
+    .heroLogo-main {
         display: none;
     }
 
-    .mobile-logo {
+    .heroLogo-mobile {
         display: flex;
     }
 
-    .hero-title {
+    .heroContent-title {
         font-size: 14px;
     }
 
-    .hero-description {
+    .heroContent-description {
         font-size: 36px;
         line-height: 120%;
     }
 
-    .hero-content {
+    .heroContent {
         margin-top: 237px;
         max-width: 335px;
     }
 
-    .hero-information a {
+    .heroInformation a {
         font-size: 14px;
         line-height: 120%;
     }
@@ -151,7 +151,7 @@
         width: 95%;
     }
 
-    .hero-logo {
+    .heroLogo {
         margin-top: 20px;
     }
 }

@@ -1,10 +1,10 @@
-.process {
+.processTraining {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
 }
 
-.process-wrapper {
+.processTraining-wrapper {
     margin-top: 160px;
     margin-left: 200px;
 }
@@ -21,14 +21,14 @@
     margin-bottom: 60px;
 }
 
-.cards {
+.processContent-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 160px;
 }
 
-.card {
+.processContentCards-card {
     width: 220px;
     margin-bottom: 40px;
 }
@@ -62,7 +62,7 @@
         font-size: 40px;
     }
 
-    .process-wrapper {
+    .processTraining-wrapper {
         margin-left: 40px;
         margin-top: 120px;
         justify-content: center;
@@ -89,11 +89,11 @@
         max-width: 95%;
     }
 
-    .card {
+    .processContentCards-card {
         margin-bottom: 40px;
     }
 
-    .cards {
+    .processContent-cards {
         margin-bottom: 116px;
     }
 }
@@ -106,7 +106,7 @@
         margin-bottom: 40px;
     }
 
-    .process-wrapper {
+    .processTraining-wrapper {
         margin-top: 80px;
         margin-left: 20px;
     }
@@ -130,12 +130,12 @@
         line-height: 160%;
     }
 
-    .card {
+    .processContentCards-card {
         width: 157px;
         margin-bottom: 40px;
     }
 
-    .cards {
+    .processContent-cards {
         margin-bottom: 80px;
     }
 }

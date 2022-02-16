@@ -1,19 +1,19 @@
-.processTraining {
+.processEducation {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
 }
 
-.processTraining-wrapper {
+.processEducation-wrapper {
     margin-top: 160px;
     margin-left: 200px;
 }
 
-.processContent {
+.processEducationContent {
     max-width: 90%;
 }
 
-.processContent-title {
+.processEducationContent-title {
     color: var(--text-color-black);
     font-weight: 400;
     font-size: 48px;
@@ -21,19 +21,19 @@
     margin-bottom: 60px;
 }
 
-.processContent-cards {
+.processEducationContent-items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 160px;
 }
 
-.processContentCards-card {
+.processEducationContentItems-item {
     width: 220px;
     margin-bottom: 40px;
 }
 
-.card-title {
+.processEducationContentItemsItem-title {
     color: var(--text-color-black);
     font-weight: 400;
     font-size: 28px;
@@ -42,14 +42,14 @@
     padding-bottom: 16px;
 }
 
-.card-text {
+.processEducationContentItemsItem-text {
     color: var(--text-color-secondary);
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
 }
 
-.card-image {
+.processEducationContentItemsItem-image {
     background-color: #E5E4EE;
     width: 220px;
     height: 180px;
@@ -58,42 +58,42 @@
 /* Tablet */
 
 @media screen and (max-width: 1024px) {
-    .processContent-title {
+    .processEducationContent-title {
         font-size: 40px;
     }
 
-    .processTraining-wrapper {
+    .processEducation-wrapper {
         margin-left: 40px;
         margin-top: 120px;
         justify-content: center;
     }
 
-    .card-image {
+    .processEducationContentItemsItem-image {
         width: 206px;
         height: 168px;
     }
 
-    .card-image img {
+    .processEducationContentItemsItem-image img {
         width: 206px;
     }
 
-    .card-title {
+    .processEducationContentItemsItem-title {
         font-size: 26px;
     }
 
-    .card-text {
+    .processEducationContentItemsItem-text {
         font-size: 16px;
     }
 
-    .processContent {
+    .processEducationContent {
         max-width: 95%;
     }
 
-    .processContentCards-card {
+    .processEducationContentItems-item {
         margin-bottom: 40px;
     }
 
-    .processContent-cards {
+    .processEducationContent-items {
         margin-bottom: 116px;
     }
 }
@@ -101,41 +101,41 @@
 /* Mobile */
 
 @media screen and (max-width: 481px) {
-    .processContent-title {
+    .processEducationContentItemsItem-title {
         font-size: 38px;
         margin-bottom: 40px;
     }
 
-    .processTraining-wrapper {
+    .processEducation-wrapper {
         margin-top: 80px;
         margin-left: 20px;
     }
 
-    .card-image {
+    .processEducationContentItemsItem-image {
         width: 157px;
         height: 128px;
     }
 
-    .card-image img {
+    .processEducationContentItemsItem-image img {
         width: 157px;
         height: 128px;
     }
 
-    .card-title {
+    .processEducationContentItemsItem-title {
         font-size: 24px;
     }
 
-    .card-text {
+    .processEducationContentItemsItem-text {
         font-size: 14px;
         line-height: 160%;
     }
 
-    .processContentCards-card {
+    .processEducationContentItems-item {
         width: 157px;
         margin-bottom: 40px;
     }
 
-    .processContent-cards {
+    .processEducationContent-items {
         margin-bottom: 80px;
     }
 }

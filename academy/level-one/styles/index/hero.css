@@ -46,7 +46,8 @@
 }
 
 .heroInformation {
-    margin: 40px 0 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
     justify-content: flex-start;
 }
 
@@ -57,7 +58,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    margin-right: 5%;
+    margin-right: 60px;
 }
 
 .heroInformation a:nth-child(3) {
@@ -145,6 +146,7 @@
     .heroInformation a {
         font-size: 14px;
         line-height: 120%;
+        margin-right: 23px;
     }
 
     .hero hr {

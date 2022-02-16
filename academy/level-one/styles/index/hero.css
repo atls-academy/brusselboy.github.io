@@ -81,6 +81,14 @@
         line-height: 16px;
     }
 
+    .hero-logo {
+        float: left;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
     .hero-description {
         font-size: 56px;
         line-height: 67px;
